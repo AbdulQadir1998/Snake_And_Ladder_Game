@@ -16,7 +16,7 @@ public class Snake_and_Ladder {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Game obj=new Game(10);
+        Game obj=new Game();
         obj.Process();
     }
     
