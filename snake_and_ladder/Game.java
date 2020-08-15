@@ -19,7 +19,7 @@ public class Game {
     private Player p2;
 
     public Game(int size) {
-        this.board = new Board(size);
+        this.board = new Board(10);
         this.p1=new Player();
         this.p2=new Player();
     }   
